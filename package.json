@@ -1,0 +1,19 @@
+{
+  "name": "doughnut-house",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node tools/validate-plugins.js",
+    "test": "vitest run",
+    "new:category": "node tools/new-plugin.js category",
+    "new:behavior": "node tools/new-plugin.js behavior"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^2.1.1",
+    "vitest": "^1.6.0"
+  }
+}

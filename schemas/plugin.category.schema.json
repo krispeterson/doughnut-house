@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doughnut-house.plugin.category",
+  "type": "object",
+  "required": [
+    "plugin",
+    "category",
+    "triggers",
+    "estimator",
+    "actions",
+    "verification",
+    "i18n"
+  ],
+  "properties": {
+    "plugin": {
+      "type": "object",
+      "required": [
+        "id",
+        "version",
+        "name_key",
+        "description_key"
+      ]
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "id",
+        "icon"
+      ]
+    },
+    "triggers": {
+      "type": "object",
+      "required": [
+        "any_of_observation_types"
+      ]
+    },
+    "estimator": {
+      "type": "object",
+      "required": [
+        "kind",
+        "model_ref"
+      ]
+    },
+    "actions": {
+      "type": "object",
+      "required": [
+        "ref"
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "ref"
+      ]
+    },
+    "i18n": {
+      "type": "object",
+      "required": [
+        "locales"
+      ]
+    },
+    "questions": {
+      "type": "array"
+    }
+  }
+}

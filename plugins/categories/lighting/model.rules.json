@@ -1,0 +1,17 @@
+{
+  "estimator": "rules_plus_factors_v1",
+  "defaults": { "impact_band": "low", "assumptions": ["Simple lighting estimate"] },
+  "factors": {
+    "electricity_kg_per_kwh": { "ref": "providers.emissions.electricity" }
+  },
+  "vars": {
+    "annual_kwh": 300
+  },
+  "annual_co2e_kg": {
+    "mul": ["var.annual_kwh", { "factor": "electricity_kg_per_kwh" }]
+  },
+  "bands": [
+    { "lte_kg": 50, "band": "low" },
+    { "gt_kg": 50, "band": "medium" }
+  ]
+}

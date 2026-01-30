@@ -1,0 +1,15 @@
+{
+  "plugin": {
+    "id": "category.lighting",
+    "version": "0.1.0",
+    "name_key": "category.lighting.name",
+    "description_key": "category.lighting.desc"
+  },
+  "category": { "id": "lighting", "icon": "light", "tags": ["home"] },
+  "triggers": { "any_of_observation_types": ["home.lighting"] },
+  "estimator": { "kind": "rules_plus_factors_v1", "model_ref": "model.rules.json" },
+  "actions": { "ref": "actions.json" },
+  "verification": { "ref": "verification.json" },
+  "i18n": { "locales": ["en-US"] },
+  "questions": []
+}

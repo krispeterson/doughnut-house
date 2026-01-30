@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "id": "led",
+      "tier": "quick_win",
+      "title_key": "category.lighting.a.led.title",
+      "body_key": "category.lighting.a.led.body",
+      "effort": "low",
+      "cost": "low",
+      "impact_hint": "low"
+    }
+  ]
+}

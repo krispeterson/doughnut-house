@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "refs": [
+    "providers.emissions.electricity",
+    "providers.fuels.us.natural_gas_kg_per_therm"
+  ]
+}

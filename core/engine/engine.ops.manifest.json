@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "rules_expr_ops": ["ref", "context", "factor", "mul", "add", "switch", "clamp", "var_string"],
+  "calculator_expr_ops": ["context", "factor", "mul", "add", "switch", "var_string"]
+}

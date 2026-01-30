@@ -1,0 +1,92 @@
+# ------------------------------
+# Node / JavaScript
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.out/
+.tmp/
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# Local config overrides
+config.local.*
+settings.local.*
+
+# ------------------------------
+# OS / Editor Noise
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+
+# ------------------------------
+# Logs / Runtime Artifacts
+# ------------------------------
+logs/
+*.log
+
+# ------------------------------
+# Coverage / Testing
+# ------------------------------
+coverage/
+.nyc_output/
+
+# ------------------------------
+# Temporary / Scratch
+# ------------------------------
+tmp/
+temp/
+scratch/
+*.swp
+*.swo
+
+# ------------------------------
+# AI / Tooling Artifacts
+# ------------------------------
+# Continue.dev, Cursor, Copilot, etc.
+.aider*
+.continue/
+.cursor/
+.ai/
+.llm/
+.prompt-cache/
+
+# Model downloads (Ollama, LM Studio, etc.)
+models/
+.model-cache/
+
+# ------------------------------
+# AR / Mobile (future-proofing)
+# ------------------------------
+# React Native / Expo / mobile builds
+android/build/
+ios/build/
+ios/Pods/
+.expo/
+.expo-shared/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.tgz
+*.zip
+*.bak
+*.orig

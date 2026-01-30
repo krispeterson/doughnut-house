@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doughnut-house.model.calc",
+  "type": "object",
+  "required": [
+    "estimator",
+    "calculator"
+  ]
+}
